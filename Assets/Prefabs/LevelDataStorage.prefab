@@ -1,0 +1,262 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1073743973435324278
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1073743973435324279}
+  - component: {fileID: 1073743973435324264}
+  m_Layer: 0
+  m_Name: LevelDataStorage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1073743973435324279
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073743973435324278}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1073743973435324264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073743973435324278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a19cc46a283b51f43b2f0c17c0d7e3aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_killGates: 1
+  m_selectedLevel: -1
+  m_selectedSkin: -1
+  _levelDataConfiguration:
+  - Length: 40
+    LinesDistance: 6
+    GatesDistance: 0
+    CubeMaxNum: 10
+    Cube1: 15
+    Cube2: 5
+    FullLine: 40
+    ForceFull: 0
+    Gates: 0
+    GateMaxNum: 0
+    Plus: 0
+    Mul: 0
+    Line1: 0
+    Line2: 0
+    Food1: 30
+    Food2: 10
+    Food3: 0
+    Difficulty: 40
+  - Length: 45
+    LinesDistance: 6
+    GatesDistance: 0
+    CubeMaxNum: 25
+    Cube1: 10
+    Cube2: 60
+    FullLine: 25
+    ForceFull: 0
+    Gates: 0
+    GateMaxNum: 0
+    Plus: 0
+    Mul: 0
+    Line1: 0
+    Line2: 0
+    Food1: 40
+    Food2: 5
+    Food3: 0
+    Difficulty: 40
+  - Length: 50
+    LinesDistance: 7
+    GatesDistance: 0
+    CubeMaxNum: 25
+    Cube1: 20
+    Cube2: 80
+    FullLine: 30
+    ForceFull: 0
+    Gates: 0
+    GateMaxNum: 0
+    Plus: 0
+    Mul: 0
+    Line1: 10
+    Line2: 0
+    Food1: 35
+    Food2: 5
+    Food3: 0
+    Difficulty: 60
+  - Length: 55
+    LinesDistance: 7
+    GatesDistance: 0
+    CubeMaxNum: 30
+    Cube1: 70
+    Cube2: 30
+    FullLine: 30
+    ForceFull: 0
+    Gates: 0
+    GateMaxNum: 0
+    Plus: 0
+    Mul: 0
+    Line1: 12
+    Line2: 0
+    Food1: 60
+    Food2: 5
+    Food3: 0
+    Difficulty: 80
+  - Length: 60
+    LinesDistance: 5
+    GatesDistance: 6
+    CubeMaxNum: 30
+    Cube1: 20
+    Cube2: 50
+    FullLine: 55
+    ForceFull: 0
+    Gates: 5
+    GateMaxNum: 20
+    Plus: 70
+    Mul: 20
+    Line1: 5
+    Line2: 0
+    Food1: 50
+    Food2: 5
+    Food3: 0
+    Difficulty: 70
+  - Length: 65
+    LinesDistance: 6
+    GatesDistance: 0
+    CubeMaxNum: 40
+    Cube1: 20
+    Cube2: 40
+    FullLine: 80
+    ForceFull: 0
+    Gates: 0
+    GateMaxNum: 0
+    Plus: 0
+    Mul: 0
+    Line1: 5
+    Line2: 0
+    Food1: 40
+    Food2: 5
+    Food3: 0
+    Difficulty: 70
+  - Length: 70
+    LinesDistance: 8
+    GatesDistance: 5
+    CubeMaxNum: 80
+    Cube1: 20
+    Cube2: 50
+    FullLine: 85
+    ForceFull: 0
+    Gates: 20
+    GateMaxNum: 40
+    Plus: 60
+    Mul: 10
+    Line1: 5
+    Line2: 0
+    Food1: 50
+    Food2: 5
+    Food3: 0
+    Difficulty: 85
+  - Length: 72
+    LinesDistance: 6
+    GatesDistance: 4
+    CubeMaxNum: 50
+    Cube1: 80
+    Cube2: 40
+    FullLine: 88
+    ForceFull: 0
+    Gates: 20
+    GateMaxNum: 30
+    Plus: 60
+    Mul: 10
+    Line1: 20
+    Line2: 0
+    Food1: 50
+    Food2: 5
+    Food3: 0
+    Difficulty: 80
+  - Length: 75
+    LinesDistance: 8
+    GatesDistance: 0
+    CubeMaxNum: 45
+    Cube1: 40
+    Cube2: 70
+    FullLine: 75
+    ForceFull: 0
+    Gates: 0
+    GateMaxNum: 30
+    Plus: 60
+    Mul: 10
+    Line1: 20
+    Line2: 4
+    Food1: 50
+    Food2: 5
+    Food3: 0
+    Difficulty: 82
+  - Length: 80
+    LinesDistance: 8
+    GatesDistance: 3
+    CubeMaxNum: 99
+    Cube1: 15
+    Cube2: 50
+    FullLine: 50
+    ForceFull: 0
+    Gates: 50
+    GateMaxNum: 20
+    Plus: 45
+    Mul: 15
+    Line1: 4
+    Line2: 0
+    Food1: 50
+    Food2: 5
+    Food3: 0
+    Difficulty: 81
+  _levelDataColor:
+  - StartColor: {r: 0.77069914, g: 0, b: 0.9056604, a: 1}
+    MiddleColor: {r: 1, g: 0.81562054, b: 0, a: 1}
+    EndColor: {r: 0, g: 0.8326307, b: 0.8773585, a: 1}
+    TextColor: {r: 0, g: 0, b: 0, a: 0.72156864}
+    SnakeColor: {r: 1, g: 1, b: 0, a: 1}
+    BackgroundColor: {r: 0.08235294, g: 0.08235294, b: 0.08235294, a: 1}
+    LineObstacleColor: {r: 1, g: 1, b: 1, a: 0.7607843}
+    GatesColor: {r: 0.6646625, g: 0.6698113, b: 1, a: 1}
+  - StartColor: {r: 0.65882355, g: 0, b: 0.77254903, a: 1}
+    MiddleColor: {r: 1, g: 0.59607846, b: 0, a: 1}
+    EndColor: {r: 0, g: 0.8235294, b: 1, a: 1}
+    TextColor: {r: 1, g: 1, b: 1, a: 1}
+    SnakeColor: {r: 1, g: 1, b: 0, a: 1}
+    BackgroundColor: {r: 0.14901961, g: 0.14901961, b: 0.14901961, a: 1}
+    LineObstacleColor: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 0.92156863}
+    GatesColor: {r: 1, g: 0.22352941, b: 0.27450982, a: 1}
+  - StartColor: {r: 0.1802243, g: 0.4862745, b: 0.8490566, a: 1}
+    MiddleColor: {r: 0.27058825, g: 0.7607843, b: 0.73333335, a: 1}
+    EndColor: {r: 0.31828433, g: 0.8018868, b: 0.21560162, a: 1}
+    TextColor: {r: 0, g: 0, b: 0, a: 1}
+    SnakeColor: {r: 0.8018868, g: 0.8018868, b: 0.8018868, a: 1}
+    BackgroundColor: {r: 0.12941177, g: 0.15294118, b: 0.16862746, a: 1}
+    LineObstacleColor: {r: 0.5730242, g: 0.67350847, b: 0.745283, a: 0.8235294}
+    GatesColor: {r: 1, g: 0.5868282, b: 0.2216981, a: 1}
+  - StartColor: {r: 1, g: 0, b: 0.20201683, a: 1}
+    MiddleColor: {r: 0.7607843, g: 0.30219918, b: 0.27058822, a: 1}
+    EndColor: {r: 0.7607843, g: 0.45304102, b: 0.16470584, a: 1}
+    TextColor: {r: 0, g: 0, b: 0, a: 1}
+    SnakeColor: {r: 0.8018868, g: 0.8018868, b: 0.8018868, a: 1}
+    BackgroundColor: {r: 0.16862746, g: 0.1610851, b: 0.12941177, a: 1}
+    LineObstacleColor: {r: 0.8018868, g: 0.8018868, b: 0.8018868, a: 1}
+    GatesColor: {r: 0.8018868, g: 0.75775784, b: 0.13995194, a: 1}

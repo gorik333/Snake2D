@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 997262b3918dc4e4c81001db7cc9271f, type: 3}
+  m_Name: Level_3
+  m_EditorClassIdentifier: 
+  OneCubeChance: 17
+  TwoCubeChance: 11
+  CubeLineChance: 1
+  OneFoodChance: 6
+  TwoFoodChance: 5
+  ThreeFoodChance: 2
+  LinesToFinish: 50
+  LinesToCubeLine: 17
+  StartColor: {r: 0, g: 1, b: 1, a: 0}
+  MiddleColor: {r: 0, g: 0, b: 1, a: 1}
+  EndColor: {r: 0.5254902, g: 0, b: 1, a: 1}
+  StartColorNumber: 50
+  MiddleColorNumber: 25
+  EndColorNumber: 1
+  BackgroundColor: {r: 0.7735849, g: 0.7735849, b: 0.7735849, a: 1}

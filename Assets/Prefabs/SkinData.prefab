@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5403773472663534012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5403773472663534015}
+  - component: {fileID: 5403773472663534014}
+  m_Layer: 0
+  m_Name: SkinData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5403773472663534015
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5403773472663534012}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5403773472663534014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5403773472663534012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 800cc2490603c8c4ca3cd059f6c86987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _selectedSkin: -1
+  _skinData:
+  - SnakeStyle: 3
+    DefaultSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    Head: {fileID: 0}
+    SkinColor:
+    - {r: 1, g: 0, b: 0, a: 1}
+    - {r: 1, g: 0.9082564, b: 0, a: 1}
+    Tail: {fileID: 0}
+    ColorRepeat: 0
+    GradientLength: 5
+  - SnakeStyle: 0
+    DefaultSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    Head: {fileID: 0}
+    SkinColor:
+    - {r: 1, g: 0.5518868, b: 0.89267385, a: 1}
+    - {r: 0.098306626, g: 0.06132078, b: 1, a: 1}
+    Tail: {fileID: 0}
+    ColorRepeat: 0
+    GradientLength: 10
+  - SnakeStyle: 1
+    DefaultSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    Head: {fileID: 0}
+    SkinColor:
+    - {r: 1, g: 0.16051982, b: 0, a: 1}
+    - {r: 0.9056604, g: 1, b: 0.9056604, a: 1}
+    Tail: {fileID: 0}
+    ColorRepeat: 0
+    GradientLength: 0
+  - SnakeStyle: 1
+    DefaultSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    Head: {fileID: 0}
+    SkinColor:
+    - {r: 0.28627455, g: 0.42704117, b: 1, a: 1}
+    - {r: 0.28627455, g: 0.42704117, b: 1, a: 1}
+    - {r: 1, g: 0.31755152, b: 0.28773582, a: 1}
+    - {r: 1, g: 0.31755152, b: 0.28773582, a: 1}
+    - {r: 0.9056604, g: 0.9056604, b: 0.9056604, a: 1}
+    Tail: {fileID: 0}
+    ColorRepeat: 0
+    GradientLength: 0
+  - SnakeStyle: 0
+    DefaultSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    Head: {fileID: 21300000, guid: 8c159fb0fb0634101815c0c01cea521d, type: 3}
+    SkinColor:
+    - {r: 1, g: 0.87114316, b: 0.3915094, a: 1}
+    - {r: 1, g: 0.66416526, b: 0, a: 1}
+    Tail: {fileID: 0}
+    ColorRepeat: 0
+    GradientLength: 10
+  - SnakeStyle: 2
+    DefaultSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    Head: {fileID: 21300000, guid: cc657c9be712d43098b3947e191ca69b, type: 3}
+    SkinColor:
+    - {r: 0.39215684, g: 0.7329351, b: 1, a: 1}
+    - {r: 0.49392623, g: 0.3066038, b: 1, a: 1}
+    - {r: 0.2971698, g: 0.60164213, b: 1, a: 1}
+    Tail: {fileID: 0}
+    ColorRepeat: 0
+    GradientLength: 10
+  - SnakeStyle: 0
+    DefaultSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    Head: {fileID: 21300000, guid: af55cc9d6be4643239e545f93505015d, type: 3}
+    SkinColor:
+    - {r: 0.41948938, g: 0.8113208, b: 0.4094874, a: 1}
+    - {r: 0.16142158, g: 0.7264151, b: 0.10622107, a: 1}
+    Tail: {fileID: 0}
+    ColorRepeat: 0
+    GradientLength: 7
+  - SnakeStyle: 2
+    DefaultSprite: {fileID: 21300000, guid: 619afadabd0eb4a6db937a4b6830b41c, type: 3}
+    Head: {fileID: 21300000, guid: 1b77c1b969eff4664970959fb1d16bbf, type: 3}
+    SkinColor:
+    - {r: 1, g: 0.4814465, b: 0.43867922, a: 1}
+    - {r: 1, g: 0.8632076, b: 0.87113756, a: 1}
+    Tail: {fileID: 0}
+    ColorRepeat: 0
+    GradientLength: 7
+  - SnakeStyle: 0
+    DefaultSprite: {fileID: 21300000, guid: 619afadabd0eb4a6db937a4b6830b41c, type: 3}
+    Head: {fileID: 21300000, guid: 5906609274b9c4c7fbf8a5186f6e4e02, type: 3}
+    SkinColor:
+    - {r: 1, g: 0.8446735, b: 0.11792451, a: 1}
+    - {r: 1, g: 0.703192, b: 0, a: 1}
+    Tail: {fileID: 0}
+    ColorRepeat: 0
+    GradientLength: 7
+  - SnakeStyle: 2
+    DefaultSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    Head: {fileID: 21300000, guid: e831031a4cace4217acab365467d833b, type: 3}
+    SkinColor:
+    - {r: 0.16312344, g: 0.9056604, b: 0, a: 1}
+    - {r: 1, g: 0.46446544, b: 0.3820755, a: 1}
+    - {r: 0.57047725, g: 1, b: 0.36320752, a: 1}
+    - {r: 1, g: 0.29860544, b: 0.19339621, a: 1}
+    Tail: {fileID: 0}
+    ColorRepeat: 0
+    GradientLength: 7
+  - SnakeStyle: 2
+    DefaultSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    Head: {fileID: 21300000, guid: 15381bd4373a14db79fde4f3ec5ea600, type: 3}
+    SkinColor:
+    - {r: 0.6886792, g: 0.39466998, b: 0.126691, a: 1}
+    - {r: 0.7735849, g: 0.5550259, b: 0.3539516, a: 1}
+    Tail: {fileID: 0}
+    ColorRepeat: 0
+    GradientLength: 8
+  - SnakeStyle: 2
+    DefaultSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    Head: {fileID: 21300000, guid: e36587ba9397f4e8482c778fdbfee4ae, type: 3}
+    SkinColor:
+    - {r: 1, g: 1, b: 1, a: 1}
+    - {r: 1, g: 0.76166666, b: 0.75, a: 1}
+    - {r: 1, g: 0.43971184, b: 0.41037738, a: 1}
+    - {r: 1, g: 0.23103772, b: 0.19339621, a: 1}
+    Tail: {fileID: 0}
+    ColorRepeat: 0
+    GradientLength: 12
