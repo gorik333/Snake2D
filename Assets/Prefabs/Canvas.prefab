@@ -2474,7 +2474,7 @@ Canvas:
   m_GameObject: {fileID: 7585889191457964540}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 0}
   m_PlaneDistance: 1
   m_PixelPerfect: 0
@@ -6467,6 +6467,7 @@ MonoBehaviour:
   m_txtLevelR: {fileID: 6023961408399038207}
   m_coinCountPanel: {fileID: 410251412}
   m_coinCountText: {fileID: 315896458}
+  UI_Camera: {fileID: 0}
 --- !u!1 &7585889192874236176
 GameObject:
   m_ObjectHideFlags: 0
@@ -7183,9 +7184,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b8e8473d23ba4648afaa2e772e9dacc, type: 3}
---- !u!1 &5120234255519250388 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3425027658171899894, guid: 2b8e8473d23ba4648afaa2e772e9dacc,
+--- !u!224 &4229777237682279756 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5923837232311860590, guid: 2b8e8473d23ba4648afaa2e772e9dacc,
     type: 3}
   m_PrefabInstance: {fileID: 7531880528773621794}
   m_PrefabAsset: {fileID: 0}
@@ -7201,9 +7202,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33c80b1762cd749fc8400cc8e99c31ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!224 &4229777237682279756 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 5923837232311860590, guid: 2b8e8473d23ba4648afaa2e772e9dacc,
+--- !u!1 &5120234255519250388 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3425027658171899894, guid: 2b8e8473d23ba4648afaa2e772e9dacc,
     type: 3}
   m_PrefabInstance: {fileID: 7531880528773621794}
   m_PrefabAsset: {fileID: 0}

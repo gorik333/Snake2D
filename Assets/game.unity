@@ -234,11 +234,6 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 687455272}
-    - target: {fileID: 7585889191457964539, guid: 959048f0a71a14965b78866da06f22e4,
-        type: 3}
-      propertyPath: m_RenderMode
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7585889191457964540, guid: 959048f0a71a14965b78866da06f22e4,
         type: 3}
       propertyPath: m_Name
@@ -254,6 +249,11 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 633651397}
+    - target: {fileID: 7585889192858546678, guid: 959048f0a71a14965b78866da06f22e4,
+        type: 3}
+      propertyPath: UI_Camera
+      value: 
+      objectReference: {fileID: 687455272}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 959048f0a71a14965b78866da06f22e4, type: 3}
 --- !u!1 &67588990
@@ -414,7 +414,7 @@ GameObject:
   - component: {fileID: 534669903}
   - component: {fileID: 534669906}
   m_Layer: 0
-  m_Name: CamMain
+  m_Name: MainCamera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -581,7 +581,7 @@ GameObject:
   - component: {fileID: 687455272}
   - component: {fileID: 687455271}
   m_Layer: 5
-  m_Name: Camera
+  m_Name: UI_Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1417,16 +1417,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 633651398}
     m_Modifications:
-    - target: {fileID: 1073743973435324264, guid: 85e15b39cec3d480681bbff9303321f2,
-        type: 3}
-      propertyPath: m_selectedLevel
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1073743973435324264, guid: 85e15b39cec3d480681bbff9303321f2,
-        type: 3}
-      propertyPath: _levelDataConfiguration.Array.data[0].Length
-      value: 3894
-      objectReference: {fileID: 0}
     - target: {fileID: 1073743973435324278, guid: 85e15b39cec3d480681bbff9303321f2,
         type: 3}
       propertyPath: m_Name

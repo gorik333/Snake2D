@@ -15,6 +15,9 @@ public class GameUI : MonoBehaviour
 	[SerializeField]
 	private Text m_coinCountText;
 
+	[SerializeField]
+	private Camera UI_Camera;
+
 
 	void Start()
 	{
@@ -43,7 +46,8 @@ public class GameUI : MonoBehaviour
 
 	public Vector3 GetCoinCounterPosition()
 	{
-		return Camera.main.ScreenToWorldPoint( m_coinCountPanel.transform.position ); ;
+		//return UI_Camera.ScreenToWorldPoint( m_coinCountPanel.transform.position );
+		return m_coinCountPanel.transform.position;
 	}
 
 

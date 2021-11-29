@@ -102,7 +102,6 @@ public class UIProc : MonoBehaviour
 
     public void ShowWin(int level)
     {
-        m_gameUI.TurnOffCoinCounter();
 
         m_wndGameWin.Show(level);
     }
@@ -154,6 +153,8 @@ public class UIProc : MonoBehaviour
         Stats.Instance.level++;
 
         m_wndGameWin.Hide();
+
+        m_gameUI.TurnOffCoinCounter();
 
         m_game.Restart();
 

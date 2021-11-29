@@ -16,7 +16,7 @@ public class FinishLine : MonoBehaviour
 
 	private SnakeMovement _currentSnake;
 
-	bool _isFinished= false;
+	bool _isFinished = false;
 
 
 	private void Start()
@@ -30,18 +30,18 @@ public class FinishLine : MonoBehaviour
 
 		_currentSnake = other.GetComponent<SnakeMovement>();
 
-		if( _currentSnake != null )
+		if (_currentSnake != null)
 		{
 			_currentSnake.StartEndBoost();
 
 			Invoke( "FireFinish", 4f );
 		}
 
-		if( circle != null && _isFinished == false )
+		if (circle != null && _isFinished == false)
 		{
 			SpawnCoin( circle.transform.position );
 
-			if( circle.Next == null )
+			if (circle.Next == null)
 			{
 				CancelInvoke( "FireFinish" );
 
@@ -52,18 +52,18 @@ public class FinishLine : MonoBehaviour
 
 	private void FireFinish()
 	{
-		if( _isFinished )
+		if (_isFinished)
 			return;
 
-		_isFinished= true;
+		_isFinished = true;
 		Game.Instance.onFinish();
 	}
 
 	private void SpawnCoin( Vector3 pos )
 	{
-		if( _coinList.Count >= 50 && Random.Range(0,3) != 0 ) // for optimization!
+		if (_coinList.Count >= 50 && Random.Range( 0, 3 ) != 0) // for optimization!
 			return;
-		
+
 		GameObject coin = Instantiate( _prefabCoin, transform );
 
 		_coinList.Add( coin );
@@ -77,9 +77,9 @@ public class FinishLine : MonoBehaviour
 
 		proc.AddEffect( new Effect( Random.Range( 0f, 0.1f ), false ) );
 		proc.AddEffect( new FxMoveTo( newPos, false, Random.Range( MIN_RANDOM_MOVE_TIME, MAX_RANDOM_MOVE_TIME ), true ) );
-		proc.AddEffect( new FxScale( 0f, Random.Range(0.8f,1f), 0.2f, true ) );
+		proc.AddEffect( new FxScale( 0f, Random.Range( 0.8f, 1f ), 0.2f, true ) );
 
-		if( _coinList.Count % 2 == 0 )
+		if (_coinList.Count % 2 == 0)
 			Vibro.Light();
 	}
 
@@ -88,18 +88,20 @@ public class FinishLine : MonoBehaviour
 	{
 		for (int i = 0; i < _coinList.Count; i++)
 		{
-			GameObject obj= _coinList[ i ];
+			GameObject obj = _coinList[ i ];
 
 			EffectProc proc = EffectProc.GetProc( obj );
 
-			float delay= 0.1f + Random.Range(0f,0.1f) + i/50f;
+			float delay = 0.1f + Random.Range( 0f, 0.1f ) + i / 50f;
 
 			proc.AddEffect( new Effect( Mathf.Min( 1.2f, delay ), false ) );
 			proc.AddEffect( new FxMoveTo( newPos, false, Random.Range( 0.2f, 0.4f ), true ) );
 			proc.AddEffect( new FxScale( obj.transform.localScale.x, 0.5f, 0.2f, true ) );
 
-			if( i % 4 == 0 && delay < 1.2f )
+			if (i % 4 == 0 && delay < 1.2f)
 				proc.AddEffect( new FxVibro( 2, 0f ) );
+
+			Destroy( _coinList[ i ], 0.75f );
 		}
 
 		return _coinList.Count;
