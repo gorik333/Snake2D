@@ -18,5 +18,6 @@ Also, every time health is taken away, the color of the block changes.
 
 Gameplay video:
 https://youtu.be/5RtnHMg9z1U
+
 Playmarket:
 https://play.google.com/store/apps/details?id=block.breaker.game
