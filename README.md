@@ -1,5 +1,5 @@
 # Snake2D
-My copy of Snake Vs Block
+My Snake Vs Block copy
 
 The finished game. A copy of Snake Vs Block.
 
@@ -14,3 +14,9 @@ Also, every time health is taken away, the color of the block changes.
   5. All colors (blocks, snakes, background, text, level progress bars) can be configured in the level settings.
   6. Saving progress (levels, length of a snake, coins).
   7. All parameters of the level (strength of blocks, their number, amount of food) can be configured in the level settings.
+
+
+Gameplay video:
+https://youtu.be/5RtnHMg9z1U
+Playmarket:
+https://play.google.com/store/apps/details?id=block.breaker.game
